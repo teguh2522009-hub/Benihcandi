@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Konsultasi - Benih Candi</title>
+
+  <!-- Panggil CSS khusus halaman ini -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Font & Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+
+<body>
+
+  <!-- HEADER -->
+  <header class="header">
+    <a href="titik3.html" class="back-btn">←</a>
+    <h1>Konsultasi</h1>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="consult-container">
+
+    <p class="desc">
+      Silakan isi formulir di bawah ini untuk melakukan konsultasi terkait benih, penanaman, atau permasalahan di lapangan.
+      Tim kami akan merespons sesuai antrean.
+    </p>
+
+    <form class="consult-form">
+      <label>Nama Lengkap</label>
+      <input type="text" placeholder="Masukkan nama Anda" required>
+
+      <label>Email</label>
+      <input type="email" placeholder="Masukkan email aktif" required>
+
+      <label>Nomor WhatsApp</label>
+      <input type="text" placeholder="08xxxxxxxxxx" required>
+
+      <label>Pesan Konsultasi</label>
+      <textarea placeholder="Ceritakan kebutuhan atau masalah Anda..." required></textarea>
+
+      <button type="submit" class="submit-btn">
+        <i class="fa fa-paper-plane"></i> Kirim Konsultasi
+      </button>
+    </form>
+  </main>
+
+  <!-- FOOTER (SAMA DENGAN BERANDA) -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-grid">
+        <!-- Kolom 1: Logo & Deskripsi -->
+        <div class="footer-col">
+          <div class="footer-logo">
+            <img src="images/logo-candi.png" alt="Logo Benih Candi">
+            <h3>Benih Candi</h3>
+          </div>
+          <p>Menyediakan benih unggul untuk masa depan pertanian Indonesia yang lebih baik.</p>
+          <div class="social-links">
+            <a href="#"><i class="fab fa-facebook-f"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-youtube"></i></a>
+            <a href="#"><i class="fab fa-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <!-- Kolom 2: Quick Links -->
+        <div class="footer-col">
+          <h4>Quick Links</h4>
+          <span class="footer-underline"></span>
+          <ul>
+            <li><a href="beranda.html">Beranda</a></li>
+            <li><a href="artikel.html" class="active">Artikel</a></li>
+            <li><a href="produk.html">Produk</a></li>
+            <li><a href="titik3.html">Tentang Kami</a></li>
+          </ul>
+        </div>
+
+        <!-- Kolom 3: Kontak -->
+        <div class="footer-col">
+          <h4>Kontak</h4>
+          <span class="footer-underline"></span>
+          <p>Alamat Kami</p>
+          <p><i class="fa fa-phone"></i> +62 813-2786-7831</p>
+          <p><i class="fa fa-envelope"></i> info@benihcandi.com</p>
+        </div>
+
+        <!-- Kolom 4: Newsletter -->
+        <div class="footer-col">
+          <h4>Newsletter</h4>
+          <span class="footer-underline"></span>
+          <p>Dapatkan tips bertani dan promo terbaru dari kami</p>
+          <form class="newsletter-form">
+            <input type="email" placeholder="Email Anda" required>
+            <button type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Benih Candi. Semua Hak Dilindungi.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
